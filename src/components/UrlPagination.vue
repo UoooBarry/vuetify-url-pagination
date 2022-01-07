@@ -4,8 +4,14 @@
 </template>
 
 <script>
+import { VPagination } from 'vuetify/lib'
+import 'vuetify/dist/vuetify.min.css'
+
 export default {
   name: 'UrlPagination',
+  components: {
+    VPagination
+  },
   props: {
     event: {
       type: Function,

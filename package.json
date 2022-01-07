@@ -1,6 +1,6 @@
 {
-  "name": "vueitfy-url-pagination",
-  "version": "1.0.0",
+  "name": "vuetify-url-pagination",
+  "version": "0.0.7",
   "description": "Vuetify pagination component that can auto sync page to url query",
   "main": "./dist/vueitfy-url-pagination.common.js",
   "repository": "https://github.com/UoooBarry/vuetify-url-pagination",
@@ -22,6 +22,10 @@
   ],
   "dependencies": {
     "@vue/cli-service-global": "^4.5.15",
-    "global": "^4.4.0"
+    "global": "^4.4.0",
+    "sass": "^1.46.0",
+    "sass-loader": "^10",
+    "vuetify": "^2.6.2",
+    "vuetify-loader": "^1.7.3"
   }
 }
